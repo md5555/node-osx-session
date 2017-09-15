@@ -1,0 +1,42 @@
+{
+  "name": "node-osx-session",
+  "version": "0.0.1",
+  "author": "Milosz Derezynski <mderezynski@gmail.com>",
+  "description": "Allows to monitor the user sessions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md5555/node-osx-session.git"
+  },
+  "dependencies": {
+    "node-abi": "2.0.0",
+    "bindings": "1.2.1",
+    "nan": "~2.3.2"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.6.0",
+    "electron": "1.6.6",
+    "electron-rebuild": "^1.5.7"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.30 <0.12"
+  },
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "macos",
+    "osx",
+    "session",
+    "monitor"
+  ],
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/md5555/node-osx-session/issues"
+  },
+  "homepage": "https://github.com/md5555/node-osx-session#readme"
+}
